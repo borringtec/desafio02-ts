@@ -4,6 +4,7 @@ import {
     Box,
     Center
 } from '@chakra-ui/react'
+import {Welcome_button} from "../Button/welcome_button";
 
 export const Header = () => {
     return (
@@ -13,6 +14,7 @@ export const Header = () => {
                     <Center>
                         <h1>Dio Bank</h1>
                     </Center>
+                    <Welcome_button/>
                 </Box>
             </Box>
         </ChakraProvider>
